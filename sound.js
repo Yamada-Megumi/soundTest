@@ -1,3 +1,4 @@
+// シンプルな音声再生のサンプル 1音だけ
 const st = document.querySelector('#st');
 const st2 = document.querySelector('#st2');
 const st3 = document.querySelector('#st3');
@@ -19,14 +20,4 @@ st3.addEventListener('click', () => {
     audioElement.currentTime = 0;
 });
 
-// function playSound() {
-//     audioElement.play();
-// }
-// function pauseSound() {
-//     audioElement.pause();
-// }
-// function stopSound() {
-//     audioElement.pause();
-//     audioElement.currentTime = 0;
-// }
-
+// // 音声データ再生用のスクリプト  

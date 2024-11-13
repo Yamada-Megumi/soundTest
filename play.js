@@ -1,3 +1,4 @@
+// 音声データ複数 再生用のサンプルスクリプト
 const audioElements = [
     new Audio('./media/sound.mp3'),
     new Audio('./media/sound2.mp3')

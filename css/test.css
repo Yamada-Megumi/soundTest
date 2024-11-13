@@ -10,22 +10,36 @@ video {
     height: auto;
 }
 
-div:first-child {
+body>div:first-child {
     flex-direction: column;
     width: 95%;
     margin: auto;
 }
 
-div {
-    display: flex;
-}
 
 div>div:nth-of-type(2) {
-
-    justify-content: space-around;
-
     p {
         width: 30%;
         background: bisque;
     }
+}
+
+div#test {
+    >div {
+        padding: .2rem;
+        margin: .5rem;
+        border-radius: 5px;
+        background: #f0f0f0;
+
+        div button {
+            border: 1px solid white;
+        }
+    }
+
+    button {
+        padding: 10px;
+        margin: 10px;
+    }
+
+
 }

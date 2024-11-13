@@ -12,7 +12,7 @@ const musicData = [
   }
 ];
 
-// 音楽再生用のメソッド
+// 音楽　複数 再生用のメソッド
 function playMusic(index) {
   // 同じ楽曲が再生中の場合はスキップ
   if (musicData[index].audioElement && !musicData[index].audioElement.paused) return;
