@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+div:first-child {
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+div {
+    display: flex;
+}
+
+div>div:nth-of-type(2) {
+    background-color: red;
+    justify-content: space-around;
+
+    p {
+        width: 30%;
+        background: bisque;
+    }
+}
